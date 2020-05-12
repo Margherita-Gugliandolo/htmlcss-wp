@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('img/parquet.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/* parametri header */
+#intestazione{
+  width:90%;
+  height:250px;
+  background-image: url('img/bosco.jpg');
+  border: 10px solid white;
+  margin:auto;
+  margin-top:20px;
+  position:relative;
+}
+.posizione-titolo{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight:700;
+  line-height: 50px;
+}
+
+.description{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  }
+
+/* parametri lista menu */
+#menu{
+position:relative;
+top:106%;
+left: -1%;
+width:102%;
+height:60px;
+background-color: #504741;
+}
+
+ul{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+li{
+  display: inline-block;
+  color:white;
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+  font-size: 14px;
+}
+
+.color-menu{
+  background-color: #302b27;
+}
+
+/* paramentri corpo loyaut */
+main{
+  margin-top: 90px;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/* parametri blocchi */
+
+.colonna1{
+  float:left;
+  width:30%;
+  background-color: white;
+  margin: 0 2%;
+}
+
+.colonna2{
+  float:left;
+  width:40%;
+  height:1000px;
+  background-color: white;
+  margin: 0 2%;
+}
+
+.colonna3{
+  float:left;
+  width:20%;
+  background-color: white;
+  margin: 0 1%;
+}
+
+/* .content1, .content3{
+  float: left;
+  width:10%;
+  background-color:white;
+}
+.content3{
+  float:right;
+  width: 15%
+}
+
+.content2{
+  width:35%;
+  height:1000px;
+  float: left;
+  background-color:white; */
+}
+/* parametri piè di pagina */
+
+footer{
+  height:100px;
+  background-color: lightblue;
+}
