@@ -89,9 +89,10 @@ main{
 
 .colonna1{
   float:left;
-  width:10%;
+  width:11%;
   background-color: white;
   margin-left: 5%;
+  border-radius: 5px;
 }
 
 .colonna2{
@@ -99,6 +100,8 @@ main{
   width:67%;
   background-color: white;
   margin: 0 1%;
+  padding:15px;
+  border-radius: 5px;
 }
 
 .colonna3{
@@ -108,25 +111,97 @@ main{
   margin-right: 0;
 }
 
+/* contenuto colonna1 */
+#rss{
+  width: 50px;
+}
 .themes{
+  display: inline-block;
+  width:5%;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
 
+.link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color:green;
+  text-decoration: none;
+}
+
+.link-style{
+  margin-top: 10px;
+  padding: 3px;
+}
+
+/* Contenuto colonna2 */
+
+#default-page{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #504741;
+  text-shadow: 0px 5px 3px black;
+  }
+
+  .testo-blog{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+
 /* Contenuti colonna 3 */
-.content{
+.widget{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.content, .content1, .content2{
   background-color: white;
+  padding:10px;
+  border-radius: 5px;
 }
 
 .content1, .content2{
   margin-top: 30px;
-  background-color: white;
 }
 
 
 /* parametri piè di pagine */
 footer{
-  height:100px;
-  background-color: lightblue;
+  width: 90%;
+  height:200px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  position:relative;
+}
+
+.copy{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color:lightgrey;
+  padding:5px;
+  border-bottom: 2px solid lightgrey;
+
+}
+
+.icone-social{
+  width:40px;
+  margin:50px;
+}
+
+#posizione{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
