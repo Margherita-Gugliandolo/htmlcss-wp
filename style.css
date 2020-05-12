@@ -7,6 +7,7 @@ body{
   background-image: url('img/parquet.png');
   background-position: center;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* parametri header */
@@ -29,14 +30,12 @@ body{
 
 .title{
   color:white;
-  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight:700;
   line-height: 50px;
 }
 
 .description{
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -61,19 +60,14 @@ transform: translate(-50%, -50%);
 
 li{
   display: inline-block;
-  color:white;
   padding: 20px;
-  text-shadow: 2px 2px 2px black;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:100;
-  font-size: 14px;
 }
 
 .link-menu{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
   color:white;
+  text-shadow: 2px 2px 2px black;
   text-decoration: none;
   }
 
@@ -93,6 +87,7 @@ li{
 /* paramentri corpo loyaut */
 main{
   margin-top: 5%;
+
   }
 
 .container::after{
@@ -130,17 +125,16 @@ main{
 #rss{
   width: 50px;
 }
+
 .themes{
   display: inline-block;
   width:5%;
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
 
 /* parametri testi linkati */
 .link{
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 14px;
   color:green;
@@ -159,7 +153,6 @@ main{
 /* Contenuto colonna2 */
 
 #default-page{
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #504741;
@@ -167,7 +160,6 @@ main{
   }
 
   .testo-blog{
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     margin-top: 30px;
     line-height: 30px;
@@ -176,7 +168,6 @@ main{
 
 /* Contenuti colonna 3 */
 .widget{
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
@@ -207,7 +198,6 @@ footer{
 
 .copy{
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color:lightgrey;
   padding:5px;
